@@ -1,0 +1,22 @@
+.navbar-container{
+    animation: add-shadow linear both;
+}
+
+.name {
+    animation: shrink-name linear both;
+}
+
+.navbar-container > * {
+    animation-timeline: scroll();
+    animation-range: 0 150px;
+}
+
+@keyframes shrink-name {
+
+}
+
+@keyframes add-shadow {
+    to {
+        box-shadow: 10px 5px 5px aquamarine;
+    }
+}
